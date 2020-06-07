@@ -1,0 +1,9 @@
+<div class="container-fluid">
+  <div *ngFor="let item of planetModels">
+    <p>{{item.name}}</p>
+
+    <input #favCheckBox type="checkbox" [checked]="item.isFavourite" (change)="onAddedToFavourite(favCheckBox.checked, item.id)" />
+    <br />
+    <hr />
+  </div>
+</div>

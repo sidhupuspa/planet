@@ -1,0 +1,21 @@
+.navbar {
+  color: white !important;
+}
+
+.bg-light {
+  background-color: #AA66CC !important;
+  box-shadow: 1px 1px 1px #e2dddd
+}
+
+.plName {
+  list-style-type: none;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
